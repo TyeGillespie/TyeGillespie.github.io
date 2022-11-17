@@ -1,0 +1,173 @@
+body.about {
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/balance-110850_1280.jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: impact;
+  font-size: border-box;
+  background-size: cover;
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-left: 2cm;
+  cursor: url(../images/cursors/uosl8sqb.bmp);
+}
+body.index {
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  box-sizing: border-box;
+  background-image: url(../images/fantasy-2824304_1280.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: light;
+  font-family: Impact;
+  color: rgb(188, 179, 179);
+  margin-bottom: 0;
+  text-shadow: 2px 2px black;
+}
+.index > ul {
+  font-family: impact;
+  font-size: 30px;
+  list-style-type: square;
+  line-height: normal;
+  color: rgb(236, 20, 20);
+  margin-top: 0;
+  margin-left: 1.5cm;
+  margin-right: 1.5cm;
+  text-shadow: 2px 2px rgb(86, 86, 14);
+}
+body.moreinfo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/sixties-2101930_1280.png);
+  background-size: 580px;
+  background-position: center;
+  background-position-y: 300px;
+  background-color: rgb(213, 96, 165);
+  margin-left: 100cm;
+}
+body.moreinfo {
+  padding: 0;
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+}
+.moreinfo h1 {
+  color: rgb(43, 237, 234);
+}
+.moreinfo > ul {
+  text-shadow: 2px 2px goldenrod;
+}
+
+.about p {
+  font-size: 25px;
+  color: rgb(204, 152, 73);
+  padding-right: 13cm;
+}
+.about strong em {
+  color: brown;
+}
+.about h1 em {
+  color: rgb(204, 152, 73);
+  text-shadow: 2px 2px black;
+}
+@import url(https://fonts.googleis.com/css?family=Poppins100,200,300,400,500,600,700,800,900);
+@media screen and (max-width: 600px) {
+  .index > * {
+    padding: 0 2%;
+  }
+}
+.about h1 {
+  color: black;
+  text-shadow: 100x white;
+}
+
+.menu-bar a {
+  color: whitesmoke;
+  font-size: 30px;
+}
+@media screen and (min-width: 601px) {
+  .index > * {
+    padding: 0 5%;
+  }
+}
+.menu-bar a {
+  color: whitesmoke;
+  text-shadow: 1px 1px green;
+}
+.menu-bar {
+  text-align: center;
+  background: rgb(112, 11, 93);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  margin-left: -2cm;
+  margin-right: -2cm;
+  text-transform: uppercase;
+  border: 3px solid #fff;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.menu-bar ul {
+  margin-top: 0;
+}
+.menu-bar ul li {
+  text-decoration: none;
+  margin: 10px;
+  padding: 15px;
+  display: inline-flex;
+  list-style: none;
+}
+.active,
+.menu-bar ul li:hover {
+  background: rgb(68, 71, 62);
+  border-radius: 3px;
+}
+.menu-bar a {
+  text-decoration: none;
+}
+h1 {
+  margin-bottom: 0px;
+  margin-left: 0;
+  color: rgb(79, 220, 35);
+  font-family: impact;
+  font-size: 30px;
+}
+h2 {
+  font-size: 30px;
+  font-family: Impact;
+  color: rgb(79, 220, 35);
+  margin-top: 2;
+  margin-bottom: 0;
+  margin-left: 0cm;
+  margin-left: 0cm;
+  text-shadow: 2px 2px rgb(8, 10, 8);
+}
+h3 {
+  font-family: impact;
+  margin-top: 2;
+  margin-bottom: 1;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  text-shadow: 2px 2px rgb(8, 10, 8);
+}
+p {
+  text-indent: 5%;
+  font-family: impact;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  text-shadow: 2px 2px rgb(8, 10, 8);
+}
